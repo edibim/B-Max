@@ -76,7 +76,7 @@ Extension: `chrome://extensions` → Developer mode → Load unpacked → φάκ
 ## Δομή του server
 
 `server/internal/domain` (κανόνες, χωρίς I/O) → `application` (use cases: `chat.go`, `tasks_life.go`, `status.go`, `app.go`) → `api` (HTTP) · `groq` (chat, planner, Whisper) · `storage` (JSON αρχείο).
-Σχέδιο και αποφάσεις: `architecture-plan-v2.md`, `NOTES.md`, `docs/architecture.md`.
+Σχέδιο και αποφάσεις: `docs/architecture-plan-v2.md`, `docs/NOTES.md`, `docs/architecture.md`.
 
 ## Πρόταση ροής για το demo (3 λεπτά)
 
